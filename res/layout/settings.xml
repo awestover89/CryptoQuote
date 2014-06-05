@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+	<ScrollView 
+		android:id="@+id/ScrollView01"
+		android:fillViewport="true" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<LinearLayout 
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<CheckBox 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:checked="true"
+				android:id="@+id/showCorrectCheck" 
+				android:text="Show Correct Letters">
+			</CheckBox>
+			<CheckBox
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:checked="true"
+				android:id="@+id/lockCorrectCheck" 
+				android:text="Lock Correct Letters"
+			></CheckBox>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/textColorTxt"
+				android:text="Set Text Color"
+			></TextView>
+			<Spinner
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/textColor"
+				android:drawSelectorOnTop="true"
+				android:prompt="@string/textColorPicker"
+			></Spinner>	
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/correctTextColorTxt"
+				android:text="Set Correct Text Color"
+			></TextView>
+			<Spinner
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/correctTextColor"
+				android:drawSelectorOnTop="true"
+				android:prompt="@string/correctTextColorPicker"
+			></Spinner>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/bgColorTxt"
+				android:text="Set Background Color"
+			></TextView>
+			<Spinner
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/bgColor"
+				android:drawSelectorOnTop="true"
+				android:prompt="@string/bgColorPicker"
+			></Spinner>
+			<Button 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:text="Done"
+				android:onClick="submit">
+			</Button>
+		
+</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">CryptoQuote v 1.0</string>
+    <string name="app_name">CryptoQuote</string>
+<string name="copyright">(c) Anthony Westover 2010</string>
+<string name="mainmenu">Return to Main Menu</string>
+<string name="maingamestart">Welcome to CryptoQuote</string>
+<string name="textColorPicker">Set Text Color</string>
+<string name="correctTextColorPicker">Set Correct Text Color</string>
+<string name="bgColorPicker">Set Background Color</string>
+</resources>
